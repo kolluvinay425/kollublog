@@ -10,7 +10,6 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 import os
-from pathlib import Path
 import django_heroku
 import dj_database_url
 from decouple import config
@@ -29,7 +28,7 @@ SECRET_KEY = '=c=oc)*(9l#td$_g$c%!65f166$*$vsq5ba)q)es9cg(t7^qij'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0','localhost','protected-atoll-78611.herokuapp.com']
+ALLOWED_HOSTS = ['0.0.0.0','localhost','kollublog.herokuapp.com']
 
 
 # Application definition
